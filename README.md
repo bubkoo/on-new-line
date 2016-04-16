@@ -1,6 +1,10 @@
 # on-new-line
-Hijacks NodeJS Stream and emits events when newline(s) written to the output.
 
+> Hijacks NodeJS Stream and emits events when newline(s) written to the output.
+
+[![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/bubkoo/on-new-line/blob/master/LICENSE)
+[![npm:](https://img.shields.io/npm/v/on-new-line.svg?style=flat-square)](https://www.npmjs.com/packages/on-new-line)
+ 
 
 ## Install
 
@@ -29,3 +33,10 @@ stream.on('after:newlines', function(lineCount) {
 });
 
 ```
+
+
+## Contributing
+
+Pull requests and stars are highly welcome.
+
+For bugs and feature requests, please [create an issue](https://github.com/bubkoo/on-new-line/issues/new).
